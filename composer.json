@@ -8,5 +8,18 @@
             "name":"Webgriffe SRL",
             "email":"support@webgriffe.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "ecomdev/ecomdev_phpunit": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "magento"
+    }
 }

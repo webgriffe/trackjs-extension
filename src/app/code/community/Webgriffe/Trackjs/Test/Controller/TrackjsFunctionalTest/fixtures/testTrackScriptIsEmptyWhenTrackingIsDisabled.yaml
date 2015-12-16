@@ -1,0 +1,2 @@
+config:
+  default/dev/trackjs/enabled: 0

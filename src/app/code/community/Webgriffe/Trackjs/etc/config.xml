@@ -49,4 +49,11 @@
             </trackjs>
         </dev>
     </default>
+    <phpunit>
+        <suite>
+            <modules>
+                <Webgriffe_Trackjs />
+            </modules>
+        </suite>
+    </phpunit>
 </config>

@@ -1,0 +1,3 @@
+config:
+  default/dev/trackjs/enabled: 1
+  default/dev/trackjs/token: 1234567890qwertyuiop
