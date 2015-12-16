@@ -1,6 +1,6 @@
 language: php
 php:
-  - "5.3"
+  # - "5.3" Disabled due to n98-magerun incompatibility
   - "5.4"
   - "5.5"
 env:
