@@ -3,6 +3,8 @@
 
 [{Track::js}](https://trackjs.com/) is a Javascript errors monitoring service, this Magento extension allows to enable it.
 
+[![Build Status](https://travis-ci.org/webgriffe/trackjs-extension.svg?branch=master)](https://travis-ci.org/webgriffe/trackjs-extension)
+
 Installation
 ------------
 
