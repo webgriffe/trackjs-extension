@@ -35,9 +35,11 @@ Usage
 
 Login into admin panel and go to `System -> Configuration -> Advanced -> Developer`. Under `{Track::js} Javascript Error Monitoring` set `Enabled` to `Yes` and set your token in the `Token` field then save the configuration.
 
-Also you have to edit manually the `page/html/head.phtml` template file of your theme to have the Trackjs script before every script in the page. To do so put this line
+Also you have to edit manually the `page/html/head.phtml` template file of your theme to have the Trackjs script before every script in the page. To do so put these lines in your `head.phtml` template:
 
 	<?php echo $this->getChildHtml('webgriffe_trackjs_script'); ?>
+	<?php unset($this->_childrenHtmlCache['webgriffe_trackjs_script']); ?>
+	<?php $this->unsetChild('webgriffe_trackjs_script'); ?>
 
 before every script in your `<head>` block as stated in [Trackjs docs](https://my.trackjs.com/install?).
 
