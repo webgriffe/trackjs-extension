@@ -13,7 +13,7 @@ export install_sample_data="no"             # Install sample data ('yes' or 'no'
 export magento_dir="magento"                # Magento directory name without heading or trailing slashes
 export phpunit_filter=""                    # [OPTIONAL] Filter (--filter) for phpunit command
 
-# export MAGENTO_VERSION="magento-mirror-1.9.2.2" -> Exported by Travis
+# export MAGENTO_VERSION="magento-mirror-1.9.2.2" -> Exported by Travis...
 
 export BASE_DIR="${SCRIPT_DIR}"                          # Absolute path of the directory where composer.json is located
 export CI_LIB_DIR="${BASE_DIR}/magento-bash-ci"          # Absolute path of the directory where are located CI scripts
