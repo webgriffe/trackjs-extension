@@ -11,10 +11,10 @@ class Webgriffe_TrackJs_Block_Script extends Mage_Core_Block_Template
 
         $token = $helper->getToken();
         return <<<HTML
-<!-- BEGIN TRACKJS -->
+<!-- BEGIN {Track::js} -->
 <script type="text/javascript">window._trackJs = { token: '$token' };</script>
 <script type="text/javascript" src="https://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js"></script>
-<!-- END TRACKJS -->
+<!-- END {Track::js} -->
 HTML;
     }
 }
