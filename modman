@@ -1,0 +1,3 @@
+src/app/code/community/Webgriffe/Trackjs/ app/code/community/Webgriffe/Trackjs/
+src/app/etc/modules/Webgriffe_Trackjs.xml app/etc/modules/Webgriffe_Trackjs.xml
+src/app/design/frontend/layout/webgriffe_trackjs.xml app/design/frontend/base/default/layout/webgriffe_trackjs.xml

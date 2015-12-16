@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <block type="webgriffe_trackjs/script" name="webgriffe_trackjs_script" />
+        </reference>
+    </default>
+</layout>
